@@ -12,5 +12,3 @@ RewriteRule ^(.*)$ $1.html
 #RewriteRule ^([a-z]+)/?$ $1.html [NC]
 
 </IfModule>
-
-Redirect 301 /index.html /es/index.html
