@@ -13,4 +13,4 @@ RewriteRule ^(.*)$ $1.html
 
 </IfModule>
 
-Redirect 301 / /es/index.html
+Redirect 301 /index.html /es/index.html
