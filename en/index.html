@@ -12,16 +12,59 @@
         <link href="../plugins/assets/dist/css/bootstrap.min.css" rel="stylesheet">
         <script src="../plugins/assets/dist/js/fontawesome.js"></script>
         <link href="../includes/css/styleone.css" rel="stylesheet" type="text/css">
-        <?php include "../includes/google-ads.php"; ?>
+        <!-- <?php include "../includes/google-ads.php"; ?> -->
     </head>
     <body class="bodycolor">
     <header>
-    <?php include '../includes/nabvar-en.php'; ?>
+   
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" aria-current="page" href=""><img src="/includes/img/home-tools-1.png" style="width: 80px;height:60px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                  <a class="nav-link active" href="https://calcular-porcentajes.com/en/">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/en/theory/calculate-percentage-examples">Theory and examples</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" target="_blank" href="https://calcularlo.com/">Online calculator</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" target="_blank" href="https://play.google.com/store/apps/details?id=com.calculadoradeporcentajes">Download App</a>
+                </li>
+              </ul>
+        <select name="idiomas" id="idiomas" class="form-select form-control" aria-label="Default" style="max-width: 200px;">
+        <option selected>Language</option>
+        <option value="2" selected>English</option>
+        <option value="1">Spanish</option>
+      </select>
+            </div>
+          </div>
+        </nav>
+      <script>
+       var select = document.getElementById('idiomas');
+      select.addEventListener('change',
+        function(){
+          var selectedOption = this.options[select.selectedIndex];
+          if (selectedOption.value==1){
+          window.location.href="https://calcular-porcentajes.com/";
+        }else if(selectedOption.value==2){
+          window.location.href="https://calcular-porcentajes.com/en/";
+        }
+        });
+      </script>
+
+
 <div class="card" style="padding-top: 80px;">
   <div class="card-body" align="center">
     <h1 class="card-title" style="font-size: 1.4rem"><b>Calculate Percentage - Online Percentage Calculators</b></h1>
     <h6 class="card-text" align="justify" style="font-size: 0.9rem;">"Welcome to (calcular-porcentajes.com)! The easiest and fastest online percentage calculator to use. Calculate percentages in a simple and accurate way, without complications. Increases, decreases, percentages of a number and more. Start calculating now and do your percentage calculations quickly and safely!"</h6>
-    <div class="adsanuncio" align="center"><?php include '../includes/cabecera-google-ads.php'; ?></div>
+    <div class="adsanuncio" align="center"> <!--<?php include '../includes/cabecera-google-ads.php'; ?>--></div>
 </div>
 </div>
 </header>
@@ -296,7 +339,7 @@
 <div class="mt-3 mb-3">
 <div class="card mb-3">
 <div class="card-body">
-<div class="adsanuncio" align="center"><?php include '../includes/interesar-google-ads.php'; ?> </div> 
+<div class="adsanuncio" align="center"> <!--<?php include '../includes/interesar-google-ads.php'; ?>--> </div> 
 </div>
 </div>
 </div>
@@ -611,9 +654,9 @@
       <a href="https://play.google.com/store/apps/details?id=com.calculadoradeporcentajes" target="_black"><img src="../includes/img/logo-app-playstore.png" class="card-img-top" alt=""></a>
     </div>
   </div>
-  <div class="adsanuncio fijolateral" align="center"><?php include '../includes/lateral-1-google-ads.php'; ?></div>
+  <div class="adsanuncio fijolateral" align="center"> <!--<?php include '../includes/lateral-1-google-ads.php'; ?>--> </div>
 </div>
-<?php include '../includes/vertical-ads-adkeeper.php'; ?>
+ <!--<?php include '../includes/vertical-ads-adkeeper.php'; ?>-->
 </div>
 
 <!-- ss -->
@@ -747,7 +790,7 @@ We apply this formula: 100*| measured value – theoretical value|/ |theoretical
 </div>
  </div>
 <div class="col-md-2">
-<div class="adsanuncio fijolateral" align="center"><?php include '../includes/lateral-2-google-ads.php'; ?></div>
+<div class="adsanuncio fijolateral" align="center"> <!--<?php include '../includes/lateral-2-google-ads.php'; ?> --> </div>
 </div>
 </div>
 <!-- dd -->
@@ -757,14 +800,14 @@ We apply this formula: 100*| measured value – theoretical value|/ |theoretical
 
 <footer align="center" class="mt-5">
     <h2 style="font-size: 1rem">These simple percentage calculators solve all your problems</h2>
-    <h6 style="font-size: .8rem">© 2024 Copyright: calcular-porcentajes.com</h6> 
+    <h6 style="font-size: .8rem">© 2025 Copyright: calcular-porcentajes.com</h6> 
 </footer>
     
     </body>
     <script src="../plugins/assets/dist/js/bootstrap.bundle.min.js"></script>
     <script src="../plugins/assets/dist/js/bootstrap.min.js" ></script>
     <script src="../plugins/assets/dist/js/jquery.min.js"></script>
-    <?php include '../includes/ads-terra.php'; ?>
+     <!--<?php include '../includes/ads-terra.php'; ?>-->
     <script src="../js/porc-en.js"></script>
     <script src="../js/alerts.js"></script>
 </html>
