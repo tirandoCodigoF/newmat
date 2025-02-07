@@ -1,0 +1,1 @@
+<?php exit(header('location:https://calcular-porcentajes.com/en/'));?>

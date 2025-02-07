@@ -1,0 +1,36 @@
+p {
+    text-align: justify;
+}
+
+#anunciolateral2,
+#anunciolateral3,
+#anunciolateral4,
+#anunciolateral5,
+#anunciolateral6 {
+    display: none;
+}
+
+.bodycolor {
+    background-color: rgba(227, 227, 240, 1.00);
+}
+
+.anchormax {
+    max-width: 1800px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 15px;
+}
+
+.espaciolateral {
+    margin-right: 5px;
+}
+
+.fijolateral {
+    position: sticky;
+    top: 3rem;
+}
+
+.card-primary.card-outline {
+    border-top: 3px solid #007bff;
+}

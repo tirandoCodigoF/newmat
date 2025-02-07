@@ -1,0 +1,23 @@
+#manifiesto v1.0
+#el manifiesto de mi sitio web.
+#cache del lado del cliente
+
+CACHE MANIFEST
+/plugins/assets/dist/css/bootstrap.min.css
+/includes/css/styleone.css
+/js/porc.js
+/js/raiz.js
+/js/alerts.js
+/plugins/assets/dist/js/jquery.min.js
+
+#cache del lado del servidor
+
+#NETWORK:
+#log.php
+#vidits.php
+
+
+#para buscar los archivos en otro sitio
+
+#FALLBACK:
+#/plugins/assets/dist/css/bootstrap.min.css
